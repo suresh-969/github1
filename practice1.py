@@ -1,0 +1,9 @@
+print({1,2}.intersection({1,2,3,4}))
+print({1,2}&{1,2,3,4})
+print({1,2}.update({1,2,3,4}))
+s={1,2}
+s.intersection_update({1,2,3,4})
+print(s)
+t={1,2,3,4}
+s&=t
+print(s)
